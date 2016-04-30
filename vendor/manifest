@@ -1,0 +1,13 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/naoina/denco",
+			"repository": "https://github.com/naoina/denco",
+			"vcs": "git",
+			"revision": "9af2ba0e24214bac003821f4a501b131b2e04c75",
+			"branch": "master",
+			"notests": true
+		}
+	]
+}
