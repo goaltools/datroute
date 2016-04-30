@@ -1,7 +1,7 @@
 # DATRoute
 DATRoute is a double array trie based router that uses
 `Form` field of request to pass parameters to handler functions
-for compatability with the standard library.
+for compatibility with the standard library.
 It is based on [`denco`](https://github.com/naoina/denco) router.
 
 [![GoDoc](https://godoc.org/github.com/goaltools/datroute?status.svg)](https://godoc.org/github.com/goaltools/datroute)
