@@ -6,8 +6,8 @@ import (
 
 // Dict is a dictionary structure that is used by routing package instead of map
 // for small sets of data.
-// On average efficency of getting an element from map is O(c + 1).
-// At the same time efficency of iterating over a slice is O(n).
+// On average efficiency of getting an element from map is O(c + 1).
+// At the same time efficiency of iterating over a slice is O(n).
 // And when n is small, O(n) < O(c + 1). That's why we are using slice and simple loop
 // rather than a map.
 type Dict struct {

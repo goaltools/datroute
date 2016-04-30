@@ -1,6 +1,6 @@
 // Package datroute is a double array trie based router that uses
 // Form field of request to pass parameters to handler functions.
-// As a result, full compatability with the standard library is achieved.
+// As a result, full compatibility with the standard library is achieved.
 // The downside is a memory consumption and speed are a bit worse
 // than if it would pass a third Params argument to handler functions.
 // The router is based on denco package.
@@ -19,8 +19,8 @@
 //	func main() {
 //		router := r.NewRouter()
 //		err := router.Handle(r.Routes{
-//			r.Get("/profiles/:username", Profiles.ShowUserHandleFunc),
-//			r.Delete("/profiles/:username", Profiles.DeleteUserHandleFunc),
+//			r.Get("/profiles/:username", ShowUserHandleFunc),
+//			r.Delete("/profiles/:username", DeleteUserHandleFunc),
 //		}).Build()
 //		if err != nil {
 //			log.Fatal(err)
